@@ -36,7 +36,7 @@ Telegram File Renamer Bot
 * `/broadcast` reply to message
 
 ### Deploy to Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/lntechnical2/RENAMER_BOT_V2)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SKDRAGON1/RENAMER_BOT_V2)
 
 ## License
 ````
@@ -48,12 +48,12 @@ Licensed works, modifications,
 and larger works may be distributed under different terms and without source code 
 ````
 
-## Support 🇮🇳
-<a href="https://t.me/lntechnical">
+## SK ᴍᴏᴠɪᴇꜱ&ꜱᴛᴀᴛᴜꜱ 🇮🇳
+<a href="https://t.me/SK_movies_status">
    <p> Telegram </p>
   </a>
-<a href="https://youtube.com/c/LNtechnical">
-   <p> YouTube </p>
+<a href="https://t.me/+WhYHkqoEFEFiODVl">
+   <p> SK HD NEW MOVIES </p>
   </a>
 
 ## Credits
