@@ -1,58 +1,44 @@
-
-{
-    "name": "Telegram Files Rename Bot",
-    "description": "A Very Simple Telegram Files Rename Bot by @SKDRAGON1",
+ {
+    "name": "Renamer Bot",
+    "description": "Telegram File Renamer Bot",
     "keywords": [
-        "telegram",
-        "files",
-        "rename",
-        "bot"
+        "Renamer Bot",
+        "Mongo DB"
     ],
-    "repository": "https://github.com/SKDRAGON1/RENAMET_BOT_V2",
-    "website": "https://abirhasan.wtf",
-    "success_url": "https://t.me/SK_movies_status",
+    "repository": "https://github.com/lntechnical2/RENAMER_BOT",
+    "success_url": "https://telegram.dog/lntechnical",
     "env": {
         "API_ID": {
-            "description": "Get this value from my.telegram.org or @TeleORG_Bot"
+            "description": "Your App api_id from https://my.telegram.org",
+            "value": ""
         },
         "API_HASH": {
-            "description": "Get this value from my.telegram.org or @TeleORG_Bot"
+            "description": "Your App api_hash from https://my.telegram.org",
+            "value": ""
         },
-        "BOT_TOKEN": {
-            "description": "Get this from @BotFather XD"
+        "TOKEN": {
+            "description": "Your Bot Token from [BotFather](https://t.me/BotFather)",
+            "value": ""
         },
-        "MONGODB_URI": {
-            "description": "MongoDB Database URI for Saving UserID for Broadcast. Tutorial: https://www.youtube.com/watch?v=aXlF80Cn7iU"
+        "ADMIN": {
+            "description":"Add Your User ID: You can get it by typing '/id' to https://t.me/MissRose_bot"
         },
-        "LOG_CHANNEL": {
-            "description": "Logs Channel ID for some Tracking XD. Example: -100123456789"
+        "CHANNEL": {
+            "description":"Your Channel User Name without @"
         },
-        "DOWNLOAD_DIR": {
-            "description": "Files download path. You can keep default. Should not end with '/'",
-            "required": false,
-            "value": "./downloads"
+        "DB_URL": {
+            "description": "Your Mongo DB URL Obtained From mongodb.com",
+            "value": ""
         },
-        "BROADCAST_AS_COPY": {
-            "description": "Broadcast as Copy or with Forward Tag. Value should be True/False.",
-            "required": false,
-            "value": "False"
-        },
-        "OWNER_ID": {
-            "description": "Bot Owner UserID"
+        "DB_NAME":{ 
+               "description":"Your Mongo DB Database Name ",
+                "value": "my",
+                "required": false
         }
     },
-    "buildpacks": [ 
+    "buildpacks": [
         {
-            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-        }, 
-        { 
             "url": "heroku/python"
         }
-    ],
-    "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "free"
-        }
-    }
+    ]
 }
